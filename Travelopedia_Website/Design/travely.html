@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelopedia Home Page</title>
+
+    <!--Font awesome cdn link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!--Custom CSS file link-->
+    <link rel="stylesheet" href="travely.css" />
+  </head>
+
+  <body>
+    <!-- Header Starts Here -->
+    <header class="header">
+      <a href="#" class="logo">
+        <i class="fas fa-paper-plane"></i> Travelopedia
+      </a>
+
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div action="" class="search-form">
+        <input
+          type="search"
+          name=""
+          placeholder="search here..."
+          id="searchBox"
+        />
+        <label for="searchBox" class="fas fa-search"></label>
+      </div>
+
+      <div class="parent" id="login-btn">
+        <img src="img/user1.jpg" alt="" />
+        <p class="uname">Asnuva Tanvin</p>
+      </div>
+      <div class="navbar">
+        <a href="#profile">View Profile</a>
+        <a href="#bookings">Bookings</a>
+        <a href="#logout">Log Out</a>
+      </div>
+    </header>
+
+    <!-- Header Ends Here -->
+
+    <!-- Explore Body Starts Here -->
+    <section class="home" id="home">
+      <div class="image" data-aos="fade-down">
+        <img src="img/undraw_floating_re_xtcj.svg" alt="" />
+      </div>
+
+      <div class="content" data-aos="fade-up">
+        <h3>Explore Dream Discover</h3>
+        <pre>
+“Travel makes one modest. You see what a tiny place you occupy in the world.” 
+                                                                                                       – Gustave Flaubert</pre
+        >
+        <a href="#" class="btn">explore now</a>
+      </div>
+    </section>
+    <!-- Explore Body Ends Here -->
+
+    <!--Menu Card Starts Here-->
+    <section class="float_container">
+      <div class="float_child">
+        <img src="img/iconhotel.png" />
+        <text>Find a Hotel</text>
+      </div>
+      <div class="float_child">
+        <img src="img/iconplane.png" />
+        <text>Book a Flight</text>
+      </div>
+      <div class="float_child">
+        <img src="img/iconcar.png" />
+        <text>Rent a car</text>
+      </div>
+      <div class="float_child">
+        <img src="img/iconbus.png" />
+        <text>Find a bus</text>
+      </div>
+      <div class="float_child">
+        <img src="img/icontodo.png" />
+        <text>Things to do</text>
+      </div>
+      <div class="float_child">
+        <img src="img/iconfoodtray.png" />
+        <text>Find Restaurants</text>
+      </div>
+    </section>
+    <!-- Menu Card Ends Here -->
+
+    <!-- featured section -->
+    <section id="featured" class="py-4">
+      <div class="container">
+        <div class="title-wrap">
+          <!-- <span class = "sm-title">know about some places before your travel</span> -->
+          <h2 class="lg-title">Featured Places</h2>
+        </div>
+
+        <div class="featured-row">
+          <div class="featured-item my-2 shadow">
+            <img
+              src="images/featured-reo-de-janeiro-brazil.jpg"
+              alt="featured place"
+            />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Reo De Janeiro, Brazil
+              </span>
+              <div>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dicta sed dignissimos libero soluta illum, harum amet
+                  excepturi sit?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img
+              src="images/featured-north-bondi-australia.jpg"
+              alt="featured place"
+            />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                North Bondi, Australia
+              </span>
+              <div>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dicta sed dignissimos libero soluta illum, harum amet
+                  excepturi sit?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img
+              src="images/featured-berlin-germany.jpg"
+              alt="featured place"
+            />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Berlin, Germany
+              </span>
+              <div>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dicta sed dignissimos libero soluta illum, harum amet
+                  excepturi sit?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img
+              src="images/featured-khwaeng-wat-arun-thailand.jpg"
+              alt="featured place"
+            />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Khwaeng wat arun, thailand
+              </span>
+              <div>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dicta sed dignissimos libero soluta illum, harum amet
+                  excepturi sit?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img src="images/featured-rome-italy.jpg" alt="featured place" />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Rome, Italy
+              </span>
+              <div>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dicta sed dignissimos libero soluta illum, harum amet
+                  excepturi sit?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img
+              src="images/featured-fuvahmulah-maldives.jpg"
+              alt="featured place"
+            />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                fuvahmulah, maldives
+              </span>
+              <div>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dicta sed dignissimos libero soluta illum, harum amet
+                  excepturi sit?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of featured section -->
+
+    <!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+  <h1 class="heading"> Our <span>Packages</span> </h1>
+
+  <div class="box-container">
+
+      <div class="box" data-aos="fade-up">
+          <div class="image">
+              <img src="images/p-1.jpg" alt="">
+              <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+          </div>
+          <div class="content">
+              <div class="price"> 290.99 <span>350.99</span> </div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+              <a href="#" class="btn"> book now</a>
+          </div>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+          <div class="image">
+              <img src="images/p-2.jpg" alt="">
+              <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+          </div>
+          <div class="content">
+              <div class="price"> 290.99 <span>350.99</span> </div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+              <a href="#" class="btn"> book now</a>
+          </div>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+          <div class="image">
+              <img src="images/p-3.jpg" alt="">
+              <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+          </div>
+          <div class="content">
+              <div class="price"> 290.99 <span>350.99</span> </div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+              <a href="#" class="btn"> book now</a>
+          </div>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+          <div class="image">
+              <img src="images/p-4.jpg" alt="">
+              <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+          </div>
+          <div class="content">
+              <div class="price"> 290.99 <span>350.99</span> </div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+              <a href="#" class="btn"> book now</a>
+          </div>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+          <div class="image">
+              <img src="images/p-5.jpg" alt="">
+              <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+          </div>
+          <div class="content">
+              <div class="price"> 290.99 <span>350.99</span> </div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+              <a href="#" class="btn"> book now</a>
+          </div>
+      </div>
+
+      <div class="box" data-aos="fade-up">
+          <div class="image">
+              <img src="images/p-6.jpg" alt="">
+              <h3> <i class="fas fa-map-marker-alt"></i> egypt </h3>
+          </div>
+          <div class="content">
+              <div class="price"> 290.99 <span>350.99</span> </div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+              <a href="#" class="btn"> book now</a>
+          </div>
+      </div>
+
+  </div>
+
+</section>
+
+    <!-- Review Section Starts -->
+    <section class="review" id="review">
+      <h1 class="heading">Client's <span>Review</span></h1>
+
+      <div class="swiper mySwiper review-slider" data-aos="zoom-in">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img src="images/pic-1.png" alt="" />
+            <h3>john deo</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+              sunt eligendi est, dicta maiores amet nihil perferendis, incidunt
+              maxime aspernatur exercitationem laboriosam odio dolores magnam
+              ratione atque, quasi odit. Hic!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/pic-2.png" alt="" />
+            <h3>john deo</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+              sunt eligendi est, dicta maiores amet nihil perferendis, incidunt
+              maxime aspernatur exercitationem laboriosam odio dolores magnam
+              ratione atque, quasi odit. Hic!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/pic-3.png" alt="" />
+            <h3>john deo</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+              sunt eligendi est, dicta maiores amet nihil perferendis, incidunt
+              maxime aspernatur exercitationem laboriosam odio dolores magnam
+              ratione atque, quasi odit. Hic!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/pic-4.png" alt="" />
+            <h3>john deo</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+              sunt eligendi est, dicta maiores amet nihil perferendis, incidunt
+              maxime aspernatur exercitationem laboriosam odio dolores magnam
+              ratione atque, quasi odit. Hic!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+  <!-- Footer -->
+  <section class="footer">
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, eveniet. Corrupti, omnis, libero porro necessitatibus provident, numquam incidunt ullam cum nobis dolores reiciendis labore neque molestias aliquid ex a culpa!</p>
+        </div>
+
+        <div class="boxx" data-aos="fade-up">
+          <h3>Follow Us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i></a>
+            <a href="#"> <i class="fab fa-twitter"></i></a>
+            <a href="#"> <i class="fab fa-instagram"></i></a>
+            <a href="#"> <i class="fab fa-linkedin"></i></a>
+            <a href="#"> <i class="fab fa-pinterest"></i></a>
+        </div>
+
+
+        <div class="box" data-aos="fade-up">
+            <h3>Quick Links</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Home </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Packages </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Services </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Pricing </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Review </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Contact </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Blogs </a>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <h3>Contact Info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> asnuva.tanvin@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> -->
+
+    <script src="travely.js"></script>
+    <script>
+      var swiper = new Swiper(".review-slider", {
+        loop: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 5500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+      AOS.init({
+        duration: 800,
+        delay: 400,
+      });
+    </script>
+  </body>
+</html>
